@@ -54,4 +54,4 @@ complex regex structure and needs further investigation.
 ## Related Files
 
 - `pywhat/Data/regex.json` - Main regex database
-- `test_ipv6_fix.py` - Test script demonstrating the fix
+- `tests/test_ipv6.py` - Test suite covering the fix
