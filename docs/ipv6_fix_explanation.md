@@ -55,3 +55,4 @@ complex regex structure and needs further investigation.
 
 - `pywhat/Data/regex.json` - Main regex database
 - `tests/test_ipv6.py` - Test suite covering the fix
+- Note: the port group in the IPv6 regex now accepts hexadecimal digits (e.g. `[2001:db8::1]:808a` correctly no longer matches as a valid IP:port with a hex port)
